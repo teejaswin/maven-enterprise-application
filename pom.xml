@@ -11,5 +11,12 @@
     <module>MavenEnterpriseApp-ear</module>
     <module>MavenEnterpriseApp-web</module>
   </modules>
+  distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>patha</name>
+        <url>http://13.233.1.89:8081/repository/nuget.org-proxy/</url>
+    </repository>
+</distributionManagement
 </project>
 
