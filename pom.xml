@@ -11,7 +11,7 @@
     <module>MavenEnterpriseApp-ear</module>
     <module>MavenEnterpriseApp-web</module>
   </modules>
-  distributionManagement>
+  <distributionManagement>
     <repository>
         <id>nexus</id>
         <name>patha</name>
