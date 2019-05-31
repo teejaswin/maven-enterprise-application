@@ -5,6 +5,7 @@
   <artifactId>maven-enterprise-application</artifactId>
   <packaging>pom</packaging>
   <version>1.0</version>
+  <sonar.host.url>http://13.235.79.116:9000/</sonar.host.url>
   <name> Maven Enterprise Application</name>
   <url>http://maven.apache.org</url>
   <modules>
@@ -15,7 +16,7 @@
     <repository>
         <id>nexus</id>
         <name>patha</name>
-        <url>http://13.233.1.89:8081/repository/nuget.org-proxy/</url>
+        <url>http://13.235.49.10:8081/repository/paytm-proxy/</url>
     </repository>
 </distributionManagement
 </project>
